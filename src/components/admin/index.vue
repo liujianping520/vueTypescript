@@ -7,28 +7,24 @@
 </template>
 
 <script lang="ts">
-import { Component, Vue } from 'vue-property-decorator';
-import AdminHead from '@/components/layouts/head.vue'; 
-import AdminAside from '@/components/layouts/aside.vue'; 
+import { Component, Vue } from 'vue-property-decorator'
+import AdminHead from '@/components/layouts/head.vue'
+import AdminAside from '@/components/layouts/aside.vue'
 
 @Component({
-  components: {AdminHead, AdminAside}
+  components: { AdminHead, AdminAside }
 })
 export default class AdminIndex extends Vue {
     public asideWidth: string = '204px'
     public bodyLeft: string = '205px'
-    created () {
-        
-    }
-    mounted () {
+    created () { }
+    mounted () {}
 
-    }
-
-    collapseAside (isCollapse) {
-        if(isCollapse) {
+    collapseAside (isCollapse: boolean) {
+        if ( isCollapse ) {
             this.asideWidth = '64px';
             this.bodyLeft = '65px';
-        }else{
+        } else {
             this.asideWidth = '204px';
             this.bodyLeft = '205px';
         }

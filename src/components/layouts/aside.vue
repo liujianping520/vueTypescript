@@ -57,10 +57,10 @@ export default class AdminAside extends Vue {
 
     }
 
-    handleOpen (key, keyPath) {
+    handleOpen (key: any, keyPath: any) {
     }
 
-    handleClose (key, keyPath) {
+    handleClose (key: any, keyPath: any) {
     }
 
     asideCollapse () {
