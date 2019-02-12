@@ -1,5 +1,5 @@
 {
-  "name": "vuets01",
+  "name": "vue04",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,26 +9,26 @@
   },
   "dependencies": {
     "axios": "^0.18.0",
-    "crypto": "^1.0.1",
-    "element-ui": "^2.5.4",
+    "element-ui": "^2.5.2",
     "moment": "^2.24.0",
-    "vue": "^2.5.22",
+    "vue": "^2.5.21",
     "vue-class-component": "^6.0.0",
+    "vue-cookie": "^1.1.4",
     "vue-property-decorator": "^7.0.0",
     "vue-router": "^3.0.1",
     "vuex": "^3.0.1"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^3.4.0",
-    "@vue/cli-plugin-eslint": "^3.4.0",
-    "@vue/cli-plugin-typescript": "^3.4.0",
-    "@vue/cli-service": "^3.4.0",
+    "@vue/cli-plugin-babel": "^3.3.0",
+    "@vue/cli-plugin-eslint": "^3.3.0",
+    "@vue/cli-plugin-typescript": "^3.3.0",
+    "@vue/cli-service": "^3.3.0",
     "@vue/eslint-config-standard": "^4.0.0",
-    "@vue/eslint-config-typescript": "^4.0.0",
+    "@vue/eslint-config-typescript": "^3.2.0",
     "babel-eslint": "^10.0.1",
     "eslint": "^5.8.0",
     "eslint-plugin-vue": "^5.0.0",
-    "typescript": "~3.2.2",
+    "typescript": "~3.1.1",
     "vue-template-compiler": "^2.5.21"
   },
   "eslintConfig": {
@@ -43,7 +43,7 @@
     ],
     "rules": {},
     "parserOptions": {
-      "parser": "@typescript-eslint/parser"
+      "parser": "typescript-eslint-parser"
     }
   },
   "postcss": {

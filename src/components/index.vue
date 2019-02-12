@@ -1,22 +1,21 @@
 <template>
-  <div class="wrap-indexbox">
-     <h1 class="title">VUE+Typescript后台管理系统</h1>
-     <div class="txtlink"><router-link to="/login">登录<i class="el-icon-arrow-right"></i></router-link></div>
+  <div class="webindex">
+    <h1 class="title">vue+Typescript+ElementUi 后台管理系统</h1>
+    <div><router-link to="/login">登录</router-link></div>
   </div>
 </template>
 
 <script lang="ts">
-import { Component, Prop, Vue } from 'vue-property-decorator'
+import { Component, Vue } from 'vue-property-decorator';
 
-@Component
-export default class WebIndex extends Vue {
-  
-}
+@Component({
+  components: {}
+})
+export default class WebIndex extends Vue {}
 </script>
 
 <style scoped>
-.wrap-indexbox{ position: fixed; top: 0; right: 0; left: 0; bottom: 0; background: #409EFF;}
-.title{ text-align: center; padding: 200px 0 0 0; color: #fff; font-size: 30px;}
-.txtlink{ text-align: center; color:#fff;}
-.txtlink a{color:#ff0;font-size: 20px;}
+.webindex{ position:fixed; left:0; right:0;top:0;bottom:0; background:#409EFF;color:#fff; text-align:center;}
+.webindex .title{padding:150px 0 20px 0;}
+.webindex a{color:#ff0;}
 </style>

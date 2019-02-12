@@ -1,15 +1,15 @@
 <template>
-  <web-index></web-index>
+  <login></login>
 </template>
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator';
-import WebIndex from '@/components/index.vue'; 
+import Login from '@/components/login/login.vue'; 
 
 @Component({
   components: {
-    WebIndex,
+    Login,
   },
 })
-export default class WebsiteIndex extends Vue {}
+export default class PagesLogin extends Vue {}
 </script>

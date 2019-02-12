@@ -1,0 +1,6 @@
+*{padding: 0; margin: 0}
+a{ text-decoration: none;}
+
+.admin-head{ position: fixed; height: 50px; width: 100%;background-color: #409EFF;color: #fff;}
+.admin-aside{position: fixed; width: 204px; left: 0; top: 50px; bottom:0; border-right:1px solid #e5e5e5; }
+.admin-body{position: fixed; left: 205px; right: 0; top: 50px; bottom:0;}
